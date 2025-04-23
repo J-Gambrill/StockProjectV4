@@ -1,0 +1,155 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app-container main {
+    flex: 1 0 auto;
+  }
+  
+  /*
+  .main-bg {
+      background: url('/images/main-background.jpg') no-repeat center center fixed;
+      background-size: cover; 
+  }
+  
+  .auth-bg {
+    background: url('/images/auth-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+  }
+  */
+  
+  /* Footer styling */
+  .footer {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    text-align: center;
+    /* Remove margin-top: auto or any absolute positioning. */
+    position: relative;
+    z-index: 1;
+  }
+  
+  .footer img {
+    max-height: 40px;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  
+  /* Everything else stays the same... */
+  .table-controls input,
+  .table-controls select,
+  .table-controls .btn-delete,
+  .table-controls .btn-refresh,
+  .btn-primary,
+  .btn-secondary,
+  .btn-info,
+  .btn-danger,
+  .btn-link {
+    border-radius: 10px !important;
+  }
+  
+  .table-bordered {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  table input,
+  table select {
+    border-radius: 6px !important;
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 2px 4px;
+  }
+  table input:focus,
+  table select:focus {
+    border-color: #007bff;
+  }
+  
+  .help-button {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    z-index: 1001;
+  }
+  
+  .blur {
+    filter: blur(4px);
+    pointer-events: none;
+  }
+  
+  .help-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .help-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .close-button {
+    border-radius: 10px;
+  }
+  
+  .logout-button {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    border: none;
+    background-color: #dc3545; 
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    z-index: 1001;
+  }
+  
+  .acc-txt {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 0 auto;
+    max-width: 19rem;
+    padding: 0.2rem;
+    border-style: solid;
+    border-width: 0.15rem;
+    border-radius: 10px;
+    border-color: darkgrey;
+  }
+  
+  .mb-3 {
+    border-width: 0.18rem;
+    border-color: rgb(71, 82, 95);
+  }
+  
+  .btn-link {
+    margin-top: -0.5rem;
+  }
+  

@@ -1,0 +1,35 @@
+!! This files proxy is currently set to "proxy": "http://backend:5000" !!
+
+This will NOT run locally as it is set to run in DOCKER
+
+To make this run locally use "proxy": "http://localhost:5000"
+
+You can find this in webpack.config.js
+
+
+
+To set up follow these steps
+
+- - - - - - - - - - - - - - -
+
+Frontend 
+
+cd into stock-alert
+run npm start
+
+- - - - - - - - - - - - - - -
+
+Backend  
+cd into stock-alert
+activate venv - (Powershell - Venv\Source\activate) (Gitbash - source Venv\Source\activate)
+cd into backend
+run py app.py
+
+- - - - - - - - - - - - - - -
+
+You will need to create your own yagmail and finnhub accounts aswell as a tagmail secret key
+
+EMAIL_PASS=
+EMAIL_USER=
+FINNHUB_API_KEY=
+JWT_SECRET_KEY=

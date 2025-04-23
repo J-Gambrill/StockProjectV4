@@ -1,0 +1,68 @@
+.table-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .table-controls .pagination-buttons {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .table-controls .action-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .table-controls input,
+  .table-controls select {
+    height: 35px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .table-controls button {
+    padding: 5px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .table-controls .btn-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .table-controls .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .table-controls .btn-delete {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .table-controls .btn-delete:hover {
+    background-color: #c82333;
+  }
+  
+  .table-controls .btn-refresh {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  .table-controls .btn-refresh:hover {
+    background-color: #5a6268;
+  }
+  
+  .table-controls button svg {
+    vertical-align: middle;
+  }
+  
